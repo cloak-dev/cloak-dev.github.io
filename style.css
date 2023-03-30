@@ -6,14 +6,18 @@ body {
     background-image: linear-gradient(to bottom right, #282a36, #242447);
     overflow: hidden;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30vh;
 }
+
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
     color: #fff;
     background-color: transparent;
 }
